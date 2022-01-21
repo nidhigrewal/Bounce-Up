@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Bounce Up</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="index.js" charset="utf-8"></script>
+    <style>
+      .grid{
+        font-size: 72px;
+      }
+      @media (max-width:500px) and (min-width:300px){
+          #phone{
+            display: block;
+            background-color: violet;
+          }
+      }
+      @media (max-width:1100px) and (min-width:800px){
+          #computer{
+            display: block;
+            background-color: thistle;
+          }
+      }
+      @media (max-width:1400px) and (min-width:1100px){
+          #desktop{
+            display: block;
+            background-color: thistle;
+          }
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="grid" id="phone"></div>
+    <div class="grid" id="tablet"></div>
+    <div class="grid" id="laptop"></div>
+    <div class="grid" id="desktop"></div>
+    
+  </body>
+</html> 
